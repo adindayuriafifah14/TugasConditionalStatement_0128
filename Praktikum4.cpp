@@ -33,4 +33,7 @@ using namespace std;
 
     //Memanggil prosedur input data 
     inputData(berat, tinggi);
+
+    //Menghitung BMI
+    float bmi = hitungBMI(berat, tinggi);
  }
