@@ -25,3 +25,9 @@ using namespace std;
     else
         return "Obesitas";
  }
+
+ int main() {
+    float berat, tinggi;
+
+    cout << "=== Program perhitungan BMI ===" <<endl;
+ }
