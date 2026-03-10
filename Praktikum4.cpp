@@ -8,3 +8,8 @@ using namespace std;
     cout << "Masukkan tinggi badan (m): ";
     cin >> tinggi;
  }
+
+ //Fungsi untuk menghitung BMI
+ float hitungBMI(float berat, float tinggi) {
+    return berat/(tinggi*tinggi);
+ }
