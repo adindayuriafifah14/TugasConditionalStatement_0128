@@ -30,4 +30,7 @@ using namespace std;
     float berat, tinggi;
 
     cout << "=== Program perhitungan BMI ===" <<endl;
+
+    //Memanggil prosedur input data 
+    inputData(berat, tinggi);
  }
