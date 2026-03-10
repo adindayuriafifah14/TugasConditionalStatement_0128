@@ -36,4 +36,13 @@ using namespace std;
 
     //Menghitung BMI
     float bmi = hitungBMI(berat, tinggi);
+
+    //Menampilkan hasil BMI dan kondisi
+    cout << "\n=== Hasil perhitungan ===" <<endl;
+    cout << "Berat badan: "<< berat << "kg" << endl;
+    cout << "Tinggi badan: "<< tinggi << "m" <<endl;
+    cout << "BMI: "<< bmi << endl;
+    cout << "Kondisi: "<< kondisiBMI(bmi) <<endl;
+
+    return 0;
  }
